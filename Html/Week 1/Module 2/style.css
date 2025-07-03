@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.headings{
+    text-align: center;
+    color: aqua;
+    background-image: url('../images/nature.jpg');
+    background-repeat: no-repeat;
+
+}
+.text-justify{
+    text-align: justify;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.15);
+}
+/* .none{
+    display: none;
+    visibility: hidden;
+} */
+.ptag{
+    border: 2px solid rgb(0, 174, 237);
+    margin: 20px;
+    height: 100px;
+}
+/* li{
+    display: inline;
+} */
+.list{
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-style: italic;
+}
+#singapur{
+    color: rgb(68, 0, 255);
+    font-weight: lighter;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
